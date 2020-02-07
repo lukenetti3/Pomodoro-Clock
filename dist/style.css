@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /*  Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#container {
+  margin: auto;
+  max-width: 500px;
+}
+
+.row {
+  margin: 20px auto;
+}
+
+.numbers {
+  margin-bottom: 30px;
+}
+
+.timer {
+  border: 3px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 5px auto; 
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+p {
+  font-size: 60px;
+  margin: 30px auto;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 50px 20px auto;
+  font-weight: 600;
+}
+
+.minusB {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.plusB {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#breakLength {
+  font-size: 20px;
+}
+
+.minusS {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.plusS {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#sessLength {
+  font-size: 20px;
+}
+
+.bar {
+  width: 300px;
+  margin: 20px auto;
+}
